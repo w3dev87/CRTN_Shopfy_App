@@ -12,3 +12,4 @@ yarn-error.log
 .env
 .packpage-lock.json
 .packpage.json
+/cofing/database.php
