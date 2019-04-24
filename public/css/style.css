@@ -1,0 +1,195 @@
+html, body { padding: 0; margin: 0; }
+body {
+    font-family: "ProximaNovaLight", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #f2f7fa;
+}
+h1 {
+    font-weight: 300;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.subhead {
+    font-size: 17px;
+    line-height: 32px;
+    font-weight: 300;
+    color: #969A9C;
+}
+.subhead.error {
+    color: #f4645f;
+}
+input {
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    border: 1px solid #479CCf;
+    color: #575757;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    border-radius: 4px 0 0 4px;
+    font-size: 18px;
+    float: left;
+}
+button {
+    color: #ffffff;
+    background-color: #3793cb;
+    width: 100px;
+    height: 50px;
+    padding: 10px 20px 10px 20px;
+    box-sizing: border-box;
+    border: none;
+    text-shadow: 0 1px 0 #3188bc;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+    float: right;
+}
+button:hover {
+    background-color: #479CCf;
+}
+form {
+    display: block;
+}
+.container {
+    text-align: center;
+    margin-top: 20px;
+    padding: 5px;
+}
+.container__form {
+    width: 400px;
+    margin: auto;
+}
+.dashboard {
+    background-color: #80808008;
+}
+
+.backg_main img{
+    width: 100%;
+    padding: 11%;
+}
+
+img.small--hide {
+    width: 111px;
+    height: 29px;
+}
+
+.backg_main {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.productImg {
+    display: inline-block;
+    width: 200px;
+    height: 150px;
+    margin: 0 20px;
+    box-shadow: 0px 1px 5px 0px;
+    float: left;
+}
+
+.clear{
+    clear: both;
+}
+
+.productImage {
+    height: 100%;
+    width: 100%;
+}
+.productText {
+    width: 55%;
+    display: inline-block;
+    float: right;
+}
+.cardUser {
+    border: none;
+    box-shadow: 1px 0px 3px 0px;
+    float: left;
+    display: inline-block;
+    margin-right: 15%;
+    width: 200px;
+    height: 150px;
+}
+
+.cardUser img{
+    width: 100%;
+    height: 100%;
+}
+
+.cardAdmin {
+    border:none;
+}
+.productDescription {
+    font-size: 14px;
+    padding: 3px;
+}
+
+.main.card {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.prod_title{
+    background-color: #eaeaea;
+    padding: 10px 0;
+    color: #d2ac80;
+}
+
+.product_overvie_cont{
+    margin: 0 auto;
+}
+
+.product_overvie_cont {
+    display: block;
+    width: 85%;
+    padding: 20px;
+}
+.maket {
+    padding: 9%;
+}
+
+.maket img{
+    width: 75%;
+}
+
+.img-show{
+    width:200px;
+    height:150px;
+}
+
+.view_detail{
+    cursor:pointer;
+}
+
+nav.navbar.navbar-expand-md.navbar-light {
+    width: 52%;
+    float: left;
+    padding: 3px 20px;
+
+}
+
+.drop-menu button{
+    background: #ffffff;
+    color: #000000;
+    font-family: 'Swiss 721 Rounded', sans-serif;
+    font-weight: 700;
+    text-shadow:none!important;
+}
+
+.drop-menu .dropdown-menu a{
+    color: #000000;
+    font-family: 'Swiss 721 Rounded', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0em;
+    line-height: 1.2;
+    vertical-align: middle;
+    text-decoration: none;
+    padding: 7.5px 15px;
+    white-space: nowrap;
+    font-size: 14px;
+}
+.clear{
+    clear: both;
+}
+
+.menu_container{
+    margin-bottom: 20px;
+}

@@ -1,0 +1,174 @@
+.card {
+    box-shadow: 1px 1px rgba(165, 232, 255, 1);
+    max-width: 1110px;
+}
+.orderNumber {
+    background-color: #e9ecef75;
+    text-align: center;
+    font-size: 22px;
+    font-family: "Baskerville Old Face";
+    color: #aba9a9;
+}
+.imageProduct_home {
+    width: 50%;
+    height: 210px;
+    display: flex;
+    justify-content: center;
+}
+
+.imageViews img {
+    width: 62%;
+    padding: 5% 0;
+    margin: 0 auto
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+.description {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-wrap: wrap;
+}
+.description .title {
+    font-family: "Baskerville Old Face";
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+}
+.description .price {
+    font-family: "Baskerville Old Face";
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+}
+.buttonsContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.buttonsContainer .button {
+    padding: 3px 20px;
+    margin-right: 5px;
+    background-color: white;
+    border: 2px solid rgba(165, 232, 255, 1);
+    border-radius: 3px;
+    outline: none;
+    font-family: "Baskerville Old Face";
+    font-size: 20px;
+    min-width: 154px;
+}
+.buttonsContainer .button:hover {
+    color: white;
+    background-color: rgba(165, 232, 255, 1);
+    transition: all 0.5s ease-out;
+}
+.imageViews {
+    width: 100%;
+    height: 220px;
+    margin: 0 auto;
+}
+.textFix {
+    width: 100%;
+    padding: 5px;
+    border: 2px solid rgba(165, 232, 255, 1);
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+    .card {
+        max-width: 930px !important;
+    }
+}
+@media (min-width: 769px) and (max-width: 991px) {
+    .card {
+        max-width: 690px !important;
+    }
+
+    .container.card.main {
+        width: 80%;
+    }
+}
+@media (max-width: 768px) {
+    .card {
+        max-width: 540px !important;
+    }
+    .description .title {
+        font-size: 16px;
+    }
+    .description .price {
+        font-size: 14px;
+    }
+    .orderNumber {
+        font-size: 18px;
+    }
+    .imageProduct {
+        width: 100%;
+        height: 130px;
+    }
+    .buttonsContainer .button {
+        padding: 3px 10px;
+        font-size: 15px;
+    }
+    .container {
+        max-width: 540px !important;
+    }
+
+    .imageProduct_home {
+        width: 100%;
+    }
+
+    .container.card.main {
+        width: 100%;
+    }
+}
+
+.zoom {
+    display:inline-block;
+    position: relative;
+}
+
+/* magnifying glass icon */
+.zoom:after {
+    content:'';
+    display:block;
+    width:33px;
+    height:33px;
+    position:absolute;
+    top:0;
+    right:0;
+
+}
+
+.zoom img {
+    display: block;
+}
+
+.zoom img::selection { background-color: transparent; }
+
+a.nav-link {
+    font-family: 'Swiss 721 Rounded', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0em;
+    line-height: 1.2;
+    vertical-align: middle;
+    text-decoration: none;
+    padding: 7.5px 15px;
+    white-space: nowrap;
+    color: #000!important;
+    font-size: 20px;
+}
+
+body, html {
+    height: 100%;
+    font-family: Poppins-Regular, sans-serif;
+    background: #fff!important;
+}
+
+.card,.cont_main {
+    box-shadow: 1px 3px 6px rgb(12, 12, 12)!important;
+}
+
+.product_overvie_cont {
+    margin-bottom: 40px!important;
+}

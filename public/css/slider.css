@@ -1,0 +1,190 @@
+.slick {
+    width: 500px;
+    margin: 0 auto;
+}
+.image {
+    width: 100%;
+    height: 100%;
+}
+#backgroundImage {
+    margin: 0 auto;
+    width: 500px;
+    height: 300px;
+}
+.imageProduct{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    z-index: 1;
+    top: 20px;
+    left: 30%;
+}
+.producticture {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.slick-slide {
+    margin: 0 15px;
+}
+.slick-slide-name {
+    height: 5px !important;
+    position: relative;
+    z-index: 2;
+    bottom: 4px;
+    left: 0;
+}
+.slider-for{
+    width: 500px;
+    height: 250px;
+    margin: 30px auto 1px;
+    overflow: hidden;
+}
+img{
+    width: 100%;
+    min-height: 60px;
+}
+.slider-nav{
+    width: 500px;
+    height: 85px;
+    margin: auto;
+}
+.slider-nav .slick-track{
+    height: 85px;
+    font-family: "Baskerville Old Face";
+}
+.slick-arrow{
+    position: absolute;
+    z-index: 50;
+}
+.slick-center {
+    box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2), 0px 6px 10px 0px rgba(0,0,0,0.14), 0px 1px 18px 0px rgba(0,0,0,0.12) !important;
+}
+.slick-prev{
+    left: -2px;
+    top: -1%;
+    width: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px 0 0 5px;
+    background-color: rgba(165, 232, 255, 1);
+}
+.slick-next{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: -2%;
+    width: 50px;
+    height: 90px;
+    top: -1%;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+    background-color: rgba(165, 232, 255, 1);
+}
+.item {
+    text-align: center;
+    box-shadow: 0px 0px 1px 0px rgba(165, 232, 255, 1)
+}
+.title{
+    font-family: "Baskerville Old Face";
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.selectCategory {
+    text-align: center;
+}
+#backgroundsCategory {
+    padding: 2px 9%;
+    border: 2px solid rgba(165, 232, 255, 1);
+    border-radius: 8px;
+    outline: none;
+    font-family: "Baskerville Old Face";
+    font-size: 16px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .slider-for {
+        width: 300px;
+        height: 150px;
+    }
+    .slider-nav {
+       width: 300px;
+    }
+    .imageProduct {
+        width: 120px;
+        height: 120px;
+    }
+    .slick-next {
+        width: 40px;
+        height: 75px;
+    }
+    .slick-prev {
+        width: 40px;
+        height: 75px;
+    }
+    img{
+        min-height: 50px;
+    }
+    .slick-center {
+        box-shadow: none !important;
+    }
+    .slider-nav .slick-slide {
+        width: 70px !important;
+        margin: 0 3px;
+    }
+    .slider-nav .slick-track {
+        transform: translate3d(-240px, 0px, 0px) !important;
+    }
+    .title {
+        font-size: 14px;
+    }
+    .slick-slide-name {
+        font-size: 12px;
+    }
+    #backgroundsCategory {
+        font-size: 12px;
+        padding: 2px 63px;
+    }
+}
+.bg-color {
+    background-color: rgba(165, 232, 255, 1);
+}
+.navbar-light .navbar-brand {
+    color: white;
+    font-family: "Baskerville Old Face";
+    font-size: 25px;
+}
+.navbar-light .navbar-brand:hover {
+    color: white;
+}
+.navbar-light .navbar-brand:focus {
+    color: white;
+}
+.nav-link {
+    color: white  !important;
+    font-size: 20px;
+}
+
+.dropDown {
+    padding: 3px 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    outline: none;
+    font-family: "Baskerville Old Face";
+}
+@media (max-width: 767px) {
+    .navBarWeb{
+        display: none;
+    }
+    .navBarMobile {
+        display: block;
+    }
+}

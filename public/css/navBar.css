@@ -1,0 +1,40 @@
+.bg-color {
+    background-color: rgba(165, 232, 255, 1);
+}
+.navbar-light .navbar-brand {
+    color: white;
+    font-family: "Baskerville Old Face";
+    font-size: 25px;
+}
+.navbar-light .navbar-brand:hover {
+    color: white;
+}
+.navbar-light .navbar-brand:focus {
+    color: white;
+}
+.nav-link {
+    color: white  !important;
+    font-size: 20px;
+}
+.navBarMobile {
+    display: none;
+
+}
+.dropDown {
+    padding: 3px 20px;
+
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    outline: none;
+    font-family: "Baskerville Old Face";
+}
+@media (max-width: 767px) {
+    .navBarWeb{
+        display: none;
+    }
+    .navBarMobile {
+        display: block;
+    }
+}
